@@ -1,0 +1,253 @@
+(footprint "18350_2S_custom"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -17.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2f52e500-c243-4c25-95ef-083ab8745374")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "18350_2S"
+		(at 0 -16.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3180ea3f-53a7-4540-b52b-96f16a194c89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://ja.aliexpress.com/item/1005001346705221.html?spm=a2g0o.order_list.order_list_main.5.492c18021kECBz&gatewayAdapt=glo2jpn"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5e6721c-eb90-4fd6-b99d-47d4466777f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aabbc850-4061-4746-91e6-026e955cad66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -22.2 -19.6)
+		(end 22.2 19.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1824f6e5-c869-41fd-9910-4ba5fd3af49f")
+	)
+	(fp_text user "+"
+		(at -18 -10 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6f787fac-3483-4bf5-a609-0b9c74fa3834")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.5)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -18 10 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "70c85fec-0943-4b1c-836a-85ac9320d5b8")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.5)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -14.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ae26234e-975f-49a5-85fe-705579ddcc0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "-"
+		(at 18 -10 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4139f4aa-a5fc-4d7f-a735-0f388feae00e")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.5)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "-"
+		(at 18 10 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "594ff863-22ca-40cd-b60c-e8a1e68064a0")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.5)
+				(bold yes)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -12.5 0)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "104699fd-5934-4b81-94ff-f8f0fdf72c3b")
+	)
+	(pad "" np_thru_hole circle
+		(at 12.5 0)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "691f99d8-cb11-4329-adde-3be00432214e")
+	)
+	(pad "1" smd rect
+		(at -22.725 -10)
+		(size 5.45 8.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "09c1c69f-7073-410c-8fcd-b63ed33501c9")
+	)
+	(pad "2" smd rect
+		(at 22.725 -10)
+		(size 5.45 8.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2ba046c2-7ee9-40ad-8656-3981cad48d31")
+	)
+	(pad "3" smd rect
+		(at -22.725 10)
+		(size 5.45 8.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1002eb20-164b-4c2d-82d8-810728e59b84")
+	)
+	(pad "4" smd rect
+		(at 22.725 10)
+		(size 5.45 8.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "152977a5-b03d-4944-8747-6feef25db341")
+	)
+	(zone
+		(layer "F.SilkS")
+		(uuid "4a9e7558-f185-4bfa-b134-fea757ed4613")
+		(name "配線禁止")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(arc
+					(start -15.15 0)
+					(mid -9.85 0)
+					(end -15.15 0)
+				)
+			)
+		)
+	)
+	(zone
+		(layer "F.SilkS")
+		(uuid "86cb1734-3b42-4391-8a61-8b0acef73056")
+		(name "配線禁止")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(arc
+					(start 9.85 0)
+					(mid 15.15 0)
+					(end 9.85 0)
+				)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/3dmodels/18350_2S.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

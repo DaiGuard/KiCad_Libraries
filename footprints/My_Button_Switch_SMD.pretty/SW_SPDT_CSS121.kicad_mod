@@ -1,0 +1,356 @@
+(footprint "SW_SPDT_CSS121"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Sub-miniature slide switch, right-angle, http://www.ckswitches.com/media/1422/js.pdf")
+	(tags "switch spdt")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "3f1d5bd5-3fc0-47d3-9c20-1232cb9957b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_SPDT_CK_JS102011SAQN"
+		(at 0 6 0)
+		(layer "F.Fab")
+		(uuid "013e0593-2aed-44c9-a17a-0853e84bc36e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/css.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b53c58b-5e10-4d54-aeda-7116ab5e7e5d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86ca652c-6fda-4d86-9d70-203e640df00f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.6 -0.6)
+		(end -4 -0.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ab95192a-8bac-48b9-99f3-0d6fcca9c163")
+	)
+	(fp_line
+		(start -4.6 1.65)
+		(end -4.6 -0.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e4ffb818-e5da-4d61-bb52-94739cd97f98")
+	)
+	(fp_line
+		(start 2 -0.6)
+		(end 4.6 -0.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d44516ac-1fc1-4dd7-855c-407f3a451413")
+	)
+	(fp_line
+		(start 4.6 -0.6)
+		(end 4.6 1.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f299cb80-9df7-45b1-9afe-0190d81a92ed")
+	)
+	(fp_line
+		(start -5 -1)
+		(end -5 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5934bd8f-b3d8-4557-a492-921219039080")
+	)
+	(fp_line
+		(start -5 3)
+		(end -2.5 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "52d31006-e452-4e98-b3ae-163fba9e9e04")
+	)
+	(fp_line
+		(start -4 -3)
+		(end -4 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "973c7bd8-ce54-479c-be40-c45702464ce6")
+	)
+	(fp_line
+		(start -4 -1)
+		(end -5 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "577393c1-93e8-4583-b6f1-37fa9fe3e1bc")
+	)
+	(fp_line
+		(start -2.5 3)
+		(end -2.5 5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8a92c197-054d-41ab-b1a6-92b4bce9d2bd")
+	)
+	(fp_line
+		(start -2.5 5)
+		(end 2.5 5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "536c0f97-0618-4402-abc1-e37011b900bc")
+	)
+	(fp_line
+		(start 2.5 3)
+		(end 5 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e024dfb0-c765-4e77-ab0f-fc9ad16dd618")
+	)
+	(fp_line
+		(start 2.5 5)
+		(end 2.5 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ad9e9146-f6c9-4a29-a157-e2c5f758e367")
+	)
+	(fp_line
+		(start 3.25 2.5)
+		(end 3.25 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ee3a676d-d320-423f-93bb-c6454d17fa90")
+	)
+	(fp_line
+		(start 3.5 -3)
+		(end -4 -3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2e016ec4-52cc-47b2-ba46-fad4ebefdeef")
+	)
+	(fp_line
+		(start 3.5 -1)
+		(end 3.5 -3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a66bbfa0-b12d-4dfa-9fc2-726f044211f3")
+	)
+	(fp_line
+		(start 5 -1)
+		(end 3.496036 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6f642cd1-d468-43ec-86d1-e16b88eac927")
+	)
+	(fp_line
+		(start 5 3)
+		(end 5 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "df8dc4e4-58e7-4633-91f8-1f6681c576e3")
+	)
+	(fp_line
+		(start -4.5 -0.5)
+		(end -4.5 2.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c2523524-5aab-474b-8799-412458068ce0")
+	)
+	(fp_line
+		(start -4.5 -0.5)
+		(end 4.5 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3da41cba-d3aa-4a6f-a82f-f7c6c7199529")
+	)
+	(fp_line
+		(start -2 4.6)
+		(end -2 2.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ec9a6496-19a9-4764-8150-af356cc6c29a")
+	)
+	(fp_line
+		(start -0.5 2.6)
+		(end -0.5 4.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e75161eb-2919-4027-a855-291a632ba200")
+	)
+	(fp_line
+		(start -0.5 4.6)
+		(end -2 4.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0a61c4c3-7e77-4291-8da9-3abd91426625")
+	)
+	(fp_line
+		(start 4.5 -0.5)
+		(end 4.5 2.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "94e26f43-df79-4871-9c5e-ff0b9d6f894a")
+	)
+	(fp_line
+		(start 4.5 2.6)
+		(end -4.5 2.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ad62e1cd-4b0f-4115-9af4-ea1a8c1d3d09")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 7.5 0)
+		(layer "F.Fab")
+		(uuid "8b9f571f-cc62-411c-a803-1c7c63e21bbe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -3.15 2.5)
+		(size 0.9 0.9)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(uuid "10d55231-fd56-48e7-a9c0-53d5e8f0f784")
+	)
+	(pad "" np_thru_hole circle
+		(at 3.15 2.5)
+		(size 0.9 0.9)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(uuid "2e65a806-d0d5-435b-aab1-e73c9c729074")
+	)
+	(pad "1" smd roundrect
+		(at -3 -1.25)
+		(size 1.25 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "1b18b594-8d74-4857-be94-bf3baf3a44c6")
+	)
+	(pad "2" smd roundrect
+		(at -1 -1.25)
+		(size 1.25 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "281697d7-f9fb-4b29-9be3-8a0586e23647")
+	)
+	(pad "3" smd roundrect
+		(at 1 -1.25)
+		(size 1.25 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "a651d37c-1a03-4242-aa8e-3bb6e098c21c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/3dmodels/CSS-1210TB.step"
+		(offset
+			(xyz 0 -2.5 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
