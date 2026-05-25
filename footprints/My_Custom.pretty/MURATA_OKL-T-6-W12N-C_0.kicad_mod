@@ -1,0 +1,280 @@
+(footprint "MURATA_OKL-T-6-W12N-C_0"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Non-Isolated PoL Module DC DC Converter 1 Output 0.591 ~ 5.5V - - 6A 4.5V - 14V Input")
+	(property "Reference" "REF**"
+		(at -3.85 -7.45 0)
+		(layer "F.SilkS")
+		(uuid "6bee93af-bd4a-45b0-9f18-c21007849a6c")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MURATA_OKL-T-6-W12N-C_0"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "7738c9f5-fbeb-4579-a6a3-1d0dec3ba470")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7dcced2-4247-4768-b519-9cf51e2bed6c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e52d207a-1bb5-4b02-a960-5e0a59ccb6bd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -6.35 -6.35)
+		(end 6.35 -6.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac6bd31d-f2c7-4271-a8c9-5838eb14928b")
+	)
+	(fp_line
+		(start -6.35 6.35)
+		(end -6.35 -6.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb3c2cb4-c851-4f87-b92a-197b2bc03a8b")
+	)
+	(fp_line
+		(start -6.35 6.35)
+		(end 6.35 6.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a13f958-be5b-498c-b5c2-e79845f6166c")
+	)
+	(fp_line
+		(start 6.35 6.35)
+		(end 6.35 -6.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09a45d48-1a08-43ca-8ee4-7ba8e9b2d0e3")
+	)
+	(fp_circle
+		(center -7.245 0)
+		(end -6.995 0)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "250d1e1b-6ef7-4af4-b3ad-879b18ed01a7")
+	)
+	(fp_line
+		(start -6.85 -6.85)
+		(end 6.85 -6.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "954d74b0-7931-45b7-a36b-9c848f87d280")
+	)
+	(fp_line
+		(start -6.85 6.85)
+		(end -6.85 -6.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "d423fa72-135d-4173-8a91-deb607e55985")
+	)
+	(fp_line
+		(start 6.85 -6.85)
+		(end 6.85 6.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "a6243bd9-b9b3-454a-acff-272441fbf48d")
+	)
+	(fp_line
+		(start 6.85 6.85)
+		(end -6.85 6.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "c45aa421-acaa-4613-b234-6a8d64d97f9b")
+	)
+	(fp_line
+		(start -6.35 -6.35)
+		(end 6.35 -6.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4fcc1934-8cc0-4346-bbe3-e8db50da9129")
+	)
+	(fp_line
+		(start -6.35 6.35)
+		(end -6.35 -6.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a2e1b1d4-77d5-42f5-af64-c3ff80e1e7db")
+	)
+	(fp_line
+		(start 6.35 -6.35)
+		(end 6.35 6.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ca43d5b6-264c-4a91-a513-24744e119c49")
+	)
+	(fp_line
+		(start 6.35 6.35)
+		(end -6.35 6.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "177e2830-5aa3-408a-a4eb-0c5b957cd098")
+	)
+	(pad "1" smd rect
+		(at -4.572 0)
+		(size 1.143 1.143)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "49bb6966-abe1-41b8-802f-31af180d61a2")
+	)
+	(pad "2" smd rect
+		(at -3.429 -4.572)
+		(size 4.191 1.905)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "c9111693-23e4-4e91-9138-8992c5672f69")
+	)
+	(pad "3" smd rect
+		(at 1.143 -4.572)
+		(size 4.191 1.905)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "6724fc43-5de7-425d-a757-65999250c00f")
+	)
+	(pad "4" smd rect
+		(at 4.572 -3.429)
+		(size 1.905 4.191)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "874cfff1-72e1-47b0-8bda-01daf8860419")
+	)
+	(pad "5" smd rect
+		(at 4.572 0)
+		(size 1.143 1.143)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "4be92223-edf0-4020-a9e5-197e5f011912")
+	)
+	(pad "6" smd rect
+		(at 4.572 4.572)
+		(size 1.143 1.143)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "fbc3a4d7-4ccd-4796-95ba-0b05512bf1f9")
+	)
+	(pad "7" smd rect
+		(at 0 4.572)
+		(size 1.143 1.143)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "b3b66538-08da-4a8d-a00b-0284d3c0908d")
+	)
+	(pad "8" smd rect
+		(at -2.286 4.572)
+		(size 1.143 1.143)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "3cbccea7-7e82-4c92-bb47-d4f0bf0bc8a4")
+	)
+	(pad "9" smd rect
+		(at -4.572 4.572)
+		(size 1.143 1.143)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "99d94a5a-8540-4d25-8f61-7d8a14566c02")
+	)
+	(pad "10" smd rect
+		(at -4.572 2.286)
+		(size 1.143 1.143)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "21bd84bf-f53a-4cc1-88f6-b3e583698bc8")
+	)
+	(pad "11" smd rect
+		(at 4.572 2.286)
+		(size 1.143 1.143)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "a0c0f90c-85e2-482e-8d6e-fd047f401a7a")
+	)
+	(pad "12" smd rect
+		(at 2.286 4.572)
+		(size 1.143 1.143)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "06793efb-fcd4-49bc-a0c6-5bc91c65bc7f")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/3dmodels/OKL-T_6-W12N-C.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
